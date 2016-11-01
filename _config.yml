@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://https://git-intermediate.github.io/partner_git_blog
-root: /partner_git_blog
+url: http://yoursite.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,6 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo : https://github.com/Git-intermediate/partner_git_blog.git
-  branch : master
+  type:
